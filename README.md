@@ -1,37 +1,54 @@
 
-# 🛒 MAISON – Responsive E-Commerce UI
+---
 
-MAISON is a **modern, responsive e-commerce frontend** built with **React, TypeScript, and Vite**.
-It features reusable components, clean UI structure, and a smooth **preloader animation** for better user experience.
+🛒 MAISON – Responsive E-Commerce UI
+
+MAISON is a modern, responsive e-commerce frontend built with React, TypeScript, and Vite.
+It features reusable components, a clean UI structure, and a smooth preloader animation to enhance user experience.
+
 
 ---
 
-## 🚀 Features
+🚀 Features
 
-* ⚡ Fast development with **Vite**
-* ⚛️ Built using **React + TypeScript**
-* 📱 Fully **responsive design**
-* 🧩 Modular & reusable components
-* 🛒 Cart system using **React Context**
-* 🔍 Search dialog functionality
-* ⏳ Preloader with smooth fade-out animation
-* 🎨 Clean and scalable project structure
+⚡ Fast development with Vite
+
+⚛️ Built using React + TypeScript
+
+📱 Fully responsive design
+
+🧩 Modular and reusable components
+
+🛒 Cart system using React Context
+
+🔍 Search dialog functionality
+
+⏳ Preloader with smooth fade-out animation
+
+🎨 Clean and scalable project structure
+
+
 
 ---
 
-## 🧱 Tech Stack
+🧱 Tech Stack
 
-* **React**
-* **TypeScript**
-* **Vite**
-* **CSS / Modern styling**
-* **ESLint**
+React
+
+TypeScript
+
+Vite
+
+CSS / Modern styling
+
+ESLint
+
+
 
 ---
 
-## 📂 Project Structure
+📂 Project Structure
 
-```text
 responsive_e-commerce/
 │
 ├── public/
@@ -70,42 +87,43 @@ responsive_e-commerce/
 ├── components.json
 ├── eslint.config.js
 └── README.md
+
+
 ---
 
-___
-## 🛠️ Getting Started
+🛠️ Getting Started
 
-### 1️⃣ Install dependencies
+1️⃣ Install dependencies
 
-```bash
 npm install
-```
 
-### 2️⃣ Run development server
+2️⃣ Run the development server
 
-```bash
 npm run dev
-```
 
-### 3️⃣ Build for production
+3️⃣ Build for production
 
-```bash
 npm run build
-```
+
 
 ---
 
-## 📌 Notes
+📌 Notes
 
-* This project focuses on **UI & frontend logic**
-* Backend / payment gateway not included
-* Easy to extend for real-world e-commerce apps
+This project focuses on UI and frontend logic
+
+Backend and payment gateway are not included
+
+Easy to extend for real-world e-commerce applications
+
+
 
 ---
 
-## 📄 License
+📄 License
 
-This project is for **learning and personal use**.
+This project is for learning and personal use.
 Feel free to modify and improve it.
+
 
 ---
