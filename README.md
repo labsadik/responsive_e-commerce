@@ -72,6 +72,7 @@ responsive_e-commerce/
 └── README.md
 ---
 
+___
 ## 🛠️ Getting Started
 
 ### 1️⃣ Install dependencies
