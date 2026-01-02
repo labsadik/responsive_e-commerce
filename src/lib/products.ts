@@ -15,26 +15,7 @@ export interface Product {
 }
 
 export const products: Product[] = [
-  {
-    id: "1",
-    name: "Premium Wool Overcoat",
-    price: 425,
-    category: "Outerwear",
-    image: "https://images.unsplash.com/photo-1544923246-77307dd628b9?w=600&h=800&fit=crop",
-    images: [
-      "https://images.unsplash.com/photo-1544923246-77307dd628b9?w=600&h=800&fit=crop",
-      "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=600&h=800&fit=crop"
-    ],
-    description: "A refined wool overcoat with a tailored silhouette. Perfect for formal occasions and cold-weather sophistication.",
-    details: ["100% Italian Wool", "Fully lined interior", "Two-button closure", "Professional dry clean only"],
-    isNew: true,
-    sizes: ["S", "M", "L", "XL", "XXL"],
-    colors: [
-      { name: "Charcoal", hex: "#36454F" },
-      { name: "Camel", hex: "#C19A6B" },
-      { name: "Navy", hex: "#1B2838" }
-    ]
-  },
+
   {
     id: "2",
     name: "Slim Fit Oxford Shirt",
@@ -67,21 +48,7 @@ export const products: Product[] = [
       { name: "Black", hex: "#1A1A1A" }
     ]
   },
-  {
-    id: "4",
-    name: "Cashmere Crewneck Sweater",
-    price: 245,
-    category: "Knitwear",
-    image: "https://images.unsplash.com/photo-1638718297373-8b07e0b7f7eb?w=600&h=800&fit=crop",
-    description: "Luxuriously soft cashmere sweater with a classic crewneck. Perfect for layering or wearing alone.",
-    details: ["100% Mongolian Cashmere", "Regular fit", "Ribbed cuffs and hem", "Hand wash or dry clean"],
-    sizes: ["S", "M", "L", "XL"],
-    colors: [
-      { name: "Grey", hex: "#808080" },
-      { name: "Navy", hex: "#1B2838" },
-      { name: "Burgundy", hex: "#800020" }
-    ]
-  },
+
   {
     id: "5",
     name: "Tailored Chino Trousers",
@@ -112,22 +79,7 @@ export const products: Product[] = [
       { name: "Black", hex: "#1A1A1A" }
     ]
   },
-  {
-    id: "7",
-    name: "Merino Wool Polo",
-    price: 135,
-    originalPrice: 175,
-    category: "Shirts",
-    image: "https://images.unsplash.com/photo-1625910513413-5fc45e96c509?w=600&h=800&fit=crop",
-    description: "Fine merino wool polo with a refined knit texture. Breathable and comfortable for all seasons.",
-    details: ["100% Extra-fine Merino Wool", "Regular fit", "Three-button placket", "Machine wash cold"],
-    isSale: true,
-    sizes: ["S", "M", "L", "XL", "XXL"],
-    colors: [
-      { name: "Forest Green", hex: "#228B22" },
-      { name: "Charcoal", hex: "#36454F" }
-    ]
-  },
+
   {
     id: "8",
     name: "Suede Chelsea Boots",
@@ -142,21 +94,7 @@ export const products: Product[] = [
       { name: "Dark Brown", hex: "#3D2314" }
     ]
   },
-  {
-    id: "9",
-    name: "Quilted Bomber Jacket",
-    price: 275,
-    category: "Outerwear",
-    image: "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=600&h=800&fit=crop",
-    description: "Lightweight quilted bomber with ribbed cuffs and hem. Perfect transitional piece for autumn and spring.",
-    details: ["Nylon outer", "Down filling", "Zip closure", "Machine wash"],
-    sizes: ["S", "M", "L", "XL"],
-    colors: [
-      { name: "Navy", hex: "#1B2838" },
-      { name: "Black", hex: "#1A1A1A" },
-      { name: "Olive", hex: "#556B2F" }
-    ]
-  },
+
   {
     id: "10",
     name: "Leather Belt",
