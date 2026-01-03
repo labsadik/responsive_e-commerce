@@ -1,54 +1,51 @@
 
 ---
 
-🛒 MAISON – Responsive E-Commerce UI
+## 🛒 MAISON — Modern Responsive E-Commerce UI
 
-MAISON is a modern, responsive e-commerce frontend built with React, TypeScript, and Vite.
-It features reusable components, a clean UI structure, and a smooth preloader animation to enhance user experience.
+**MAISON** is a modern, responsive e-commerce frontend built with **React**, **TypeScript**, and **Vite**.
+The project emphasizes clean UI architecture, reusable components, and polished UX interactions, including smooth transitions and a preloader animation that enhances perceived performance.
 
-
----
-
-🚀 Features
-
-⚡ Fast development with Vite
-
-⚛️ Built using React + TypeScript
-
-📱 Fully responsive design
-
-🧩 Modular and reusable components
-
-🛒 Cart system using React Context
-
-🔍 Search dialog functionality
-
-⏳ Preloader with smooth fade-out animation
-
-🎨 Clean and scalable project structure
-
-
+This codebase is designed to be scalable, maintainable, and easily extensible for real-world e-commerce applications.
 
 ---
 
-🧱 Tech Stack
+## 🚀 Key Features
 
-React
-
-TypeScript
-
-Vite
-
-CSS / Modern styling
-
-ESLint
-
-
+* ⚡ **High-performance development workflow** powered by Vite
+* ⚛️ **React + TypeScript** for type safety and predictable UI behavior
+* 📱 **Fully responsive layout** optimized for mobile, tablet, and desktop
+* 🧩 **Modular, reusable components** with clear separation of concerns
+* 🛒 **Global cart state management** using React Context
+* 🔍 **Search dialog** with accessible modal behavior
+* ⏳ **Preloader animation** with smooth fade-out transition
+* 🎨 **Clean and scalable UI structure** suitable for design iteration
 
 ---
 
-📂 Project Structure
+## 🎯 UI / UX Highlights
 
+* Consistent layout spacing and visual hierarchy
+* Clear call-to-action patterns for product discovery and checkout
+* Drawer-based cart experience for non-disruptive shopping flow
+* Mobile-first navigation behavior
+* Lightweight animations to improve feedback without impacting performance
+
+---
+
+## 🧱 Tech Stack
+
+* **React**
+* **TypeScript**
+* **Vite**
+* **CSS / Modern styling practices**
+* **ESLint** for code quality
+
+---
+
+## 📂 Project Structure
+
+```
 responsive_e-commerce/
 │
 ├── public/
@@ -81,49 +78,51 @@ responsive_e-commerce/
 │   │   └── NotFound.tsx
 │   │
 │   ├── main.tsx
+│   │
 │   └── index.tsx
 │
 ├── index.html
 ├── components.json
 ├── eslint.config.js
 └── README.md
-
+```
 
 ---
 
-🛠️ Getting Started
+## 🛠️ Getting Started
 
-1️⃣ Install dependencies
+### 1. Install dependencies
 
+```bash
 npm install
+```
 
-2️⃣ Run the development server
+### 2. Start the development server
 
+```bash
 npm run dev
+```
 
-3️⃣ Build for production
+### 3. Build for production
 
+```bash
 npm run build
-
-
----
-
-📌 Notes
-
-This project focuses on UI and frontend logic
-
-Backend and payment gateway are not included
-
-Easy to extend for real-world e-commerce applications
-
-
+```
 
 ---
 
-📄 License
+## 📌 Notes
 
-This project is for learning and personal use.
-Feel free to modify and improve it.
-
+* This project focuses on **frontend UI and UX logic only**
+* No backend services or payment gateway integrations are included
+* Architecture is intentionally designed for easy integration with APIs, CMS, or headless commerce platforms
 
 ---
+
+## 📄 License
+
+This project is intended for **learning and personal use**.
+You are free to modify, extend, and adapt it to suit your needs.
+
+---
+
